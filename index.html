@@ -1,16 +1,15 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <!-- Site made with Mobirise AI Website Builder v0.01, https://ai.mobirise.com -->
+  <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="Mobirise AI v0.01, ai.mobirise.com">
+  <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
   <link rel="shortcut icon" href="assets/images/logo5.png" type="image/x-icon">
-  <meta name="description" content="Dynamic and visually stunning Malaysian-based original IP featuring the latest products, pop-up events, and online shop for clothing, decorations, and digital printing.">
 
+  <style>
+  :root{ --background: #fffef6; --dominant-color: #BE430F; --primary-color: #593942; --secondary-color: #D5B2E7; --success-color: #20AC6B; --danger-color: #AE1E2C; --warning-color: #CC9900; --info-color: #0AA3C2; --background-text: #000000; --dominant-text: #FFFFFF; --primary-text: #FFFFFF; --secondary-text: #000000; --success-text: #FFFFFF; --danger-text: #FFFFFF; --warning-text: #000000; --info-text: #FFFFFF;}
+  </style>
   <title>Exciting Catbear Universe</title>
-  <link rel="stylesheet" href="assets/web/assets/mobirise-icons2/mobirise2.css">
   <link rel="stylesheet" href="assets/parallax/jarallax.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
@@ -19,20 +18,34 @@
   <link rel="stylesheet" href="assets/socicon/css/styles.css">
   <link rel="stylesheet" href="assets/animatecss/animate.css">
   <link rel="stylesheet" href="assets/theme/css/style.css">
-  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;700&amp;display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;700&display=swap"></noscript>
-  <link rel="preload" as="style" href="assets/mobirise/css/additional.css"><link rel="stylesheet" href="assets/mobirise/css/additional.css" type="text/css">
-  
-  
-
-  <style>:root{ --background: #F5EDFC; --dominant-color: #9D4EDD; --primary-color: #3C096C; --secondary-color: #D5B2E7; --success-color: #20AC6B; --danger-color: #AE1E2C; --warning-color: #CC9900; --info-color: #0AA3C2; --background-text: #000000; --dominant-text: #FFFFFF; --primary-text: #FFFFFF; --secondary-text: #000000; --success-text: #FFFFFF; --danger-text: #FFFFFF; --warning-text: #000000; --info-text: #FFFFFF;}</style>
+  <link rel="preload" as="style" href="assets/mobirise/css/additional.css">
+  <link rel="stylesheet" href="assets/mobirise/css/additional.css" type="text/css">
 </head>
-<body>
 
+<body id="BODY" style="overflow:hidden;">
+  
+  <audio loop id="BGM_Player">
+    <source src="assets/Music/BGM.mp3">
+  </audio>
 
-    <style>
+ <span id="Loading_Span" style="z-index: 1000;width: 100%;height:100%;position: fixed;background-image: url('assets/images/Loading.gif');background-size: cover;background-position: center;background-color: #f8f1d5;">
+  <script>
+    var sec = 300000;
+    CountDown();
+
+    function CountDown(){
+      while (sec >= 0)
+        sec--;
+        // alert(sec);
+    }
+  </script>
+</span>
+
+<style>
 .cid-u4kixSRuHI  {
-  z-index: 1000;
+  z-index: 999;
   width: 100%;
   position: relative;
 }
@@ -59,6 +72,7 @@
   }
 }
 .cid-u4kixSRuHI  .navbar-brand {
+  color: var(--dominant-color);
   flex-shrink: 0;
   align-items: center;
   margin-right: 0;
@@ -153,7 +167,7 @@
   height: 90px;
   padding: 0.5rem 0.6rem;
   flex-wrap: nowrap;
-  background: rgba(255, 255, 255, 0.8) !important;
+  background: rgb(255 243 229 / 80%) !important;
   left: 0;
   right: 0;
   -webkit-box-pack: justify;
@@ -165,7 +179,7 @@
   align-items: center;
   border-radius: 100vw;
   margin-top: 1rem;
-  background-color: #ffffff;
+  background-color: #fffef6;
   box-shadow: 0 30px 60px 0 rgba(27, 31, 10, 0.08);
 }
 @media (max-width: 992px) {
@@ -194,7 +208,7 @@
   border-radius: 1.5rem;
   transition: 0.3s all !important;
   min-width: auto;
-  background: #ffffff;
+  background: #fffef6;
   background: rgba(255, 255, 255, 0.8) !important;
 }
 .cid-u4kixSRuHI  .nav-item:focus,
@@ -359,7 +373,7 @@
   padding: 0.667em 1.667em;
 }
 .cid-u4kixSRuHI  .navbar.navbar-expand-lg .dropdown .dropdown-menu {
-  background: #ffffff;
+  background: #fffef6;
 }
 .cid-u4kixSRuHI  .navbar.navbar-expand-lg .dropdown .dropdown-menu .dropdown-submenu {
   margin: 0;
@@ -523,7 +537,7 @@
     width: 100%;
     padding: 1rem;
     border-radius: 1.5rem;
-    background: #ffffff;
+    background: #fffef6;
     opacity: 1;
     border-color: rgba(255, 255, 255, 0.8) !important;
     background: rgba(255, 255, 255, 0.8) !important;
@@ -593,23 +607,23 @@
 </style>
 
 <section class="menu menu2 cid-u4kixSRuHI" once="menu" id="menu-5-u4kixSRuHI">
-  <nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg">
+  <nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg navbar-short">
     <div class="container">
       <div class="navbar-brand">
         <span class="navbar-logo">
-					<a href="https://mobiri.se">
-						<img src="assets/images/photo-1662402846439-8c30788fffd7.jpeg" style="height: 4.3rem;">
+					<a href="catbear-universe.unstoppable">
+						<img src="assets/images/profile.png" style="height: 4rem;">
 					</a>
 				</span>
-				<span class="navbar-caption-wrap">
-          <a class="navbar-caption text-black display-4" href="https://mobiri.se">Catbear</a>
+				<span class="navbar-caption-wrap" style="margin-right: -0.8rem;">
+          <a class="navbar-caption display-4" href="catbear-universe.unstoppable" style="font-family: fantasy;">LAZY CATBEAR</a>
         </span>
+        <button onclick="BGM_on_off()" type="button">
+        <span id="BGM_btn" style="padding-block: 0.5rem; padding-right: 3rem; background-image: url('assets/images/Sound_off.png'); background-position: center;background-size: contain;">
+				</span>
+        </button>
       </div>
-      <button class="navbar-toggler" type="button" data-toggle="collapse"
-        data-bs-toggle="collapse" data-target="#navbarSupportedContent"
-        data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarNavAltMarkup" aria-expanded="false"
-        aria-label="Toggle navigation">
+      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbarSupportedContent" data-bs-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <div class="hamburger">
           <span></span>
           <span></span>
@@ -617,35 +631,40 @@
           <span></span>
         </div>
       </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <div class="navbar-collapse collapse" id="navbarSupportedContent">
         <ul class="navbar-nav nav-dropdown" data-app-modern-menu="true">
           <li class="nav-item">
             <a class="nav-link link text-black display-4" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link link text-black display-4" href="#"
-              aria-expanded="false">Events</a>
+            <a class="nav-link link text-black display-4" href="#events-1-u4kixSSEYq" aria-expanded="false">Events</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link link text-black display-4" href="#">Shop</a>
+            <a class="nav-link link text-black display-4" href="#about-us-7-u4kixSTw3Q">The Catbear</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link link text-black display-4" href="#follow-us-2-u4kixSUM57">Follow Us</a>
           </li>
         </ul>
         <div class="navbar-buttons mbr-section-btn">
-          <a class="btn btn-primary display-4" href="https://mobiri.se">Explore Now</a>
+          <a class="btn btn-primary display-4" href="https://linktr.ee/lazy.catbear" target="_blank">Explore more</a>
         </div>
       </div>
     </div>
   </nav>
 </section>
 
-    <style>
+<style>
   .cid-u4kixSS0nY {
     display: flex;
-    background-image: url("assets/images/photo-1662402846439-8c30788fffd7.jpeg");
+    background-color: #000000;
   }
   .cid-u4kixSS0nY .mbr-overlay {
-    background-color: #000000;
-    opacity: 0.5;
+    background-image: url('assets/images/BG.png');
+    opacity: 0.65;
+    background-position-x:center ;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   @media (min-width: 768px) {
     .cid-u4kixSS0nY {
@@ -684,26 +703,38 @@
   .cid-u4kixSS0nY .mbr-section-btn {
     text-align: center;
   }
+  .cid-u4kixSS0nY .content-wrap .mbr-section-title .mbr-fonts-style .small_subtitle 
+  {
+    text-size-adjust: auto;
+  }
+
 </style>
-<section class="header16 cid-u4kixSS0nY mbr-fullscreen mbr-parallax-background" id="hero-17-u4kixSS0nY">
-  <div class="mbr-overlay" style="opacity: 0.3; background-color: rgb(0, 0, 0);"></div>
+<section class="header16 cid-u4kixSS0nY mbr-fullscreen mbr-parallax-background" id="hero-17-u4kixSS0nY" style="z-index: 0; position: relative;">
+  <div class="mbr-overlay"></div>
   <div class="container-fluid">
     <div class="row">
       <div class="content-wrap col-12 col-md-10">
-        <h1 class="mbr-section-title mbr-fonts-style mbr-white mb-4 display-1">
-          <strong>Cosmic Cuteness</strong>
-        </h1>
-        <p class="mbr-fonts-style mbr-text mbr-white mb-4 display-7">Embark on a Galactic Adventure with Lazy Catbear Universe - Where Whimsical Dreams Come True!</p>
-        <div class="mbr-section-btn"><a class="btn btn-white-outline display-7" href="#">Discover</a></div>
+        <h1 class="mbr-section-title mbr-fonts-style mbr-white mb-4 display-1 animate__animated animate__delay-1s animate__fadeIn" style="
+        border: #c3c3c3;
+        border-bottom-style: solid;">
+              <strong>CHILL AND RELAX</strong>
+            </h1>
+        <p class="mbr-fonts-style mbr-text mbr-white mb-4 display-7 animate__animated animate__delay-1s animate__fadeIn" style="text-transform: uppercase;font-family: monospace;color: #c3c3c3;">Welcome to most relax place, Catbear's Universe<br><span style="text-transform: lowercase;">GET CHILL WITH YOUR OWN VIBE.</span></p>
+        <div class="mbr-section-btn"><a class="btn btn-white-outline display-7 animate__animated animate__delay-1s animate__fadeIn" href="#gallery-16-u4kixSSZsf" onclick="PLAYer_play()">Discover</a></div>
       </div>
     </div>
   </div>
-</section>
-    <style>
+<div id="jarallax-container-0" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden; z-index: -100;"><div style="background-position: 50% 50%; background-size: cover; background-repeat: no-repeat; position: absolute; top: 0px; left: 0px; width: 684px; height: 627px; overflow: hidden; pointer-events: none; transform-style: preserve-3d; backface-visibility: hidden; will-change: transform, opacity; margin-top: 0px; transform: translate3d(0px, 235.2px, 0px);"></div></div></section>
+
+
+<!-- Line breaker -->
+<!-- <p class="Img_LineBreak"><img class=" Line_Breaker_Box" src="assets/images/Line.png" alt=""></p> -->
+
+<style>
 .cid-u4kixSSZsf {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
-  background-color: #ffffff;
+  /* padding-top: 4rem; */
+  /* padding-bottom: 6rem; */
+  background-color: transparent;
 }
 .cid-u4kixSSZsf .item:focus,
 .cid-u4kixSSZsf span:focus {
@@ -733,7 +764,8 @@
   }
 }
 .cid-u4kixSSZsf .mbr-section-title {
-  color: #000000;
+  color: var(--primary-color);
+
 }
 .cid-u4kixSSZsf .mbr-text,
 .cid-u4kixSSZsf .mbr-section-btn {
@@ -788,35 +820,24 @@
     <div class="row justify-content-center">
       <div class="col-12 content-head">
         <div class="mbr-section-head mb-5">
-          <h4 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
-            <strong>Galactic Product Showcase</strong>
+          <h4 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2 animate__animated animate__delay-1s animate__fadeIn">
+            <strong style="font-family: fantasy; font-size: 3.5rem;"><br>✦ Galactic Product Showcase ✦<br></strong>
           </h4>
-        </div>
-      </div>
-    </div>
-    <div class="grid-container">
-      <div class="grid-container-3" style="transform: translate3d(-200px, 0px, 0px);">
-        <div class="grid-item">
-          <img src="assets/images/photo-1662402846439-8c30788fffd7.jpeg">
-        </div>
-        <div class="grid-item">
-          <img src="assets/images/photo-1662402846439-8c30788fffd7.jpeg">
-        </div>
-        <div class="grid-item">
-          <img src="assets/images/photo-1662402846439-8c30788fffd7.jpeg">
-        </div>
-        <div class="grid-item">
-          <img src="assets/images/photo-1662402846439-8c30788fffd7.jpeg">
         </div>
       </div>
     </div>
   </div>
 </section>
-    <style>
+
+
+<!-- <p class="Img_LineBreak"><img class=" Line_Breaker_Box" src="assets/images/Line.png" alt=""></p> -->
+
+<!-- Product item slide-content -->
+<style>
   .cid-u4kixSSh6l {
-    padding-top: 6rem;
+    /* padding-top: 6rem; */
     padding-bottom: 6rem;
-    background: transparent;
+    background-color: transparent;
   }
   .cid-u4kixSSh6l .mbr-fallback-image.disabled {
     display: none;
@@ -954,116 +975,66 @@
     max-width: 800px;
   }
 </style>
-<section
-  class="slider4 mbr-embla cid-u4kixSSh6l"
-  id="gallery-13-u4kixSSh6l"
->
+<section class="slider4 mbr-embla cid-u4kixSSh6l" id="gallery-13-u4kixSSh6l">
   <div class="container-fluid">
     <div class="row">
       <div class="col-12">
-        <div
-          class="embla position-relative"
-          data-skip-snaps="true"
-          data-align="center"
-          data-contain-scroll="trimSnaps"
-          data-loop="true"
-          data-auto-play="true"
-          data-auto-play-interval="2"
-          data-draggable="true"
-        >
-          <div class="embla__viewport">
-            <div class="embla__container">
-              <div
-                class="embla__slide slider-image item"
-                style="margin-left: 1rem; margin-right: 1rem;"
-              >
+        <div class="embla position-relative" data-skip-snaps="true" data-align="center" data-contain-scroll="trimSnaps" data-loop="true" data-auto-play="true" data-auto-play-interval="2" data-draggable="true">
+          <div class="embla__viewport is-draggable">
+            <div class="embla__container" style="transform: translate3d(-317.078%, 0px, 0px);">
+              <div class="embla__slide slider-image item animate__animated animate__delay-1s animate__fadeIn" style="margin-left: 1rem; margin-right: 1rem; left: 0%;">
                 <div class="slide-content">
                   <div class="item-img">
                     <div class="item-wrapper">
-                      <img
-                        src="assets/images/photo-1662402846439-8c30788fffd7.jpeg"
-                       
-                      />
+                      <img src="assets/images/Product1.png">
                     </div>
                   </div>
                 </div>
               </div>
-              <div
-                class="embla__slide slider-image item"
-                style="margin-left: 1rem; margin-right: 1rem;"
-              >
+              <div class="embla__slide slider-image item animate__animated animate__delay-1s animate__fadeIn" style="margin-left: 1rem; margin-right: 1rem;">
                 <div class="slide-content">
                   <div class="item-img">
                     <div class="item-wrapper">
-                      <img
-                        src="assets/images/photo-1662402846439-8c30788fffd7.jpeg"
-                       
-                      />
+                      <img src="assets/images/Product2.png">
                     </div>
                   </div>
                 </div>
               </div>
-              <div
-                class="embla__slide slider-image item"
-                style="margin-left: 1rem; margin-right: 1rem;"
-              >
+              <div class="embla__slide slider-image item animate__animated animate__delay-1s animate__fadeIn" style="margin-left: 1rem; margin-right: 1rem;">
                 <div class="slide-content">
                   <div class="item-img">
                     <div class="item-wrapper">
-                      <img
-                        src="assets/images/photo-1662402846439-8c30788fffd7.jpeg"
-                       
-                      />
+                      <img src="assets/images/Product3.png">
                     </div>
                   </div>
                 </div>
               </div>
-              <div
-                class="embla__slide slider-image item"
-                style="margin-left: 1rem; margin-right: 1rem;"
-              >
+              <div class="embla__slide slider-image item animate__animated animate__delay-1s animate__fadeIn is-selected" style="margin-left: 1rem; margin-right: 1rem;">
                 <div class="slide-content">
                   <div class="item-img">
                     <div class="item-wrapper">
-                      <img
-                        src="assets/images/photo-1662402846439-8c30788fffd7.jpeg"
-                       
-                      />
+                      <img src="assets/images/Product4.png">
                     </div>
                   </div>
                 </div>
               </div>
-              <div
-                class="embla__slide slider-image item"
-                style="margin-left: 1rem; margin-right: 1rem;"
-              >
+              <div class="embla__slide slider-image item animate__animated animate__delay-1s animate__fadeIn" style="margin-left: 1rem; margin-right: 1rem;">
                 <div class="slide-content">
                   <div class="item-img">
                     <div class="item-wrapper">
-                      <img
-                        src="assets/images/photo-1662402846439-8c30788fffd7.jpeg"
-                       
-                      />
+                      <img src="assets/images/Product5.png">
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <button class="embla__button embla__button--prev">
-            <span
-              class="mobi-mbri mobi-mbri-arrow-prev"
-              aria-hidden="true"
-            ></span>
-            <span
-              class="sr-only visually-hidden visually-hidden"
-            >Previous</span>
+          <button class="embla__button embla__button--prev animate__animated animate__delay-1s animate__fadeIn">
+            <span class="mobi-mbri mobi-mbri-arrow-prev" aria-hidden="true"></span>
+            <span class="sr-only visually-hidden visually-hidden">Previous</span>
           </button>
-          <button class="embla__button embla__button--next">
-            <span
-              class="mobi-mbri mobi-mbri-arrow-next"
-              aria-hidden="true"
-            ></span>
+          <button class="embla__button embla__button--next animate__animated animate__delay-1s animate__fadeIn">
+            <span class="mobi-mbri mobi-mbri-arrow-next" aria-hidden="true"></span>
             <span class="sr-only visually-hidden visually-hidden">Next</span>
           </button>
         </div>
@@ -1075,7 +1046,7 @@
   .cid-u4kixSSEYq {
     padding-top: 6rem;
     padding-bottom: 6rem;
-    background-color: #ffffff;
+    
   }
   .cid-u4kixSSEYq .item-subtitle {
     line-height: 1.2;
@@ -1087,6 +1058,7 @@
     height: 100%;
     height: 400px;
     object-fit: cover;
+    object-position: center;
   }
   .cid-u4kixSSEYq .item:focus,
   .cid-u4kixSSEYq span:focus {
@@ -1094,6 +1066,7 @@
   }
   .cid-u4kixSSEYq .item {
     margin-bottom: 2rem;
+    border-radius: 1rem;
   }
   @media (max-width: 767px) {
     .cid-u4kixSSEYq .item {
@@ -1106,9 +1079,10 @@
     height: 100%;
     display: flex;
     flex-flow: column nowrap;
+    padding-top: 1rem;
   }
   .cid-u4kixSSEYq .mbr-section-title {
-    color: #232323;
+    color: var(--dominant-color);
   }
   .cid-u4kixSSEYq .mbr-text,
   .cid-u4kixSSEYq .mbr-section-btn {
@@ -1119,299 +1093,92 @@
   }
   .cid-u4kixSSEYq .content-head {
     max-width: 800px;
+    margin-bottom: 2rem;
+    font-family: fantasy;
   }
+
+
+/* Upcoming Event Announcement */
 </style>
 <section class="features03 cid-u4kixSSEYq" id="events-1-u4kixSSEYq">
 	<div class="container-fluid">
 		<div class="row justify-content-center mb-5">
 			<div class="col-12 content-head">
 				<div class="mbr-section-head">
-					<h4 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
-						<strong>Cosmic Events</strong>
+					<h4 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2 animate__animated animate__delay-1s animate__fadeIn">
+						<strong>✦ ✦ COMING UP ✦ ✦</strong>
 					</h4>
 				</div>
 			</div>
 		</div>
 		<div class="row">
-			<div class="item features-image col-12 col-md-6 col-lg-3 active">
+			<div class="item features-image col-12 col-md-6 col-lg-3 active animate__animated animate__delay-1s animate__fadeIn confirmed_event">
 				<div class="item-wrapper">
 					<div class="item-img mb-3">
-						<img src="assets/images/photo-1662402846439-8c30788fffd7.jpeg">
+						<img src="assets/images/Nijigen.png">
 					</div>
 					<div class="item-content align-left">
 						<h6 class="item-subtitle mbr-fonts-style mb-3 display-5">
-							<strong><a class="text-black fw-bold" href="#">Space Pop-Up Extravaganza</a></strong>
+							<strong><a class="text-black fw-bold" href="#">Nijigen 2024, MIECC</a></strong>
 						</h6>
-						<p class="mbr-text mbr-fonts-style mb-3 display-7">March 10, 2024</p>
-						<p class="mbr-text mbr-fonts-style mb-3 display-7">Join us for an out-of-this-world experience with exclusive merchandise and cosmic treats!</p>
-						<div class="mbr-section-btn item-footer"><a href="#" class="btn item-btn btn-primary display-7">Join</a></div>
+						<p class="mbr-text mbr-fonts-style mb-3 display-7" style="font-weight: bolder;">BOOTH: D-210</p>
+						<p class="mbr-text mbr-fonts-style mb-3 display-7">1-3 March 2024 in MIECC, KL</p>
+						<div class="mbr-section-btn item-footer"><a href="#" class="btn item-btn btn-primary display-7">Catalogue</a></div>
 					</div>
 				</div>
 			</div>
-			<div class="item features-image col-12 col-md-6 col-lg-3">
+			<div class="item features-image col-12 col-md-6 col-lg-3 animate__animated animate__delay-1s animate__fadeIn">
 				<div class="item-wrapper">
 					<div class="item-img mb-3">
-						<img src="assets/images/photo-1662402846439-8c30788fffd7.jpeg" data-slide-to="1" data-bs-slide-to="1">
+						<img src="assets/images/tba.png" data-slide-to="1" data-bs-slide-to="1">
 					</div>
 					<div class="item-content align-left">
 						<h6 class="item-subtitle mbr-fonts-style mb-3 display-5">
-							<strong><a class="text-black fw-bold" href="#">Celestial Gathering</a></strong>
+							<strong style="color: #b9b9b9;">TO BE ANNOUNCED</strong>
 						</h6>
-						<p class="mbr-text mbr-fonts-style mb-3 display-7">April 5, 2024</p>
-						<p class="mbr-text mbr-fonts-style mb-3 display-7">Experience the magic of the stars with limited edition collectibles and stellar surprises!</p>
-						<div class="mbr-section-btn item-footer"><a href="#" class="btn item-btn btn-primary display-7">Join</a></div>
+						<p class="mbr-text mbr-fonts-style mb-3 display-7"></p>
+						<p class="mbr-text mbr-fonts-style mb-3 display-7"></p>
+						<!-- <div class="mbr-section-btn item-footer"><a href="#" class="btn item-btn btn-primary display-7"></a></div> -->
 					</div>
 				</div>
 			</div>
-			<div class="item features-image col-12 col-md-6 col-lg-3">
+			<div class="item features-image col-12 col-md-6 col-lg-3 animate__animated animate__delay-1s animate__fadeIn">
 				<div class="item-wrapper">
 					<div class="item-img mb-3">
-						<img src="assets/images/photo-1662402846439-8c30788fffd7.jpeg" data-slide-to="2" data-bs-slide-to="2">
+						<img src="assets/images/tba.png" data-slide-to="2" data-bs-slide-to="2">
 					</div>
 					<div class="item-content align-left">
 						<h6 class="item-subtitle mbr-fonts-style mt-0 mb-3 display-5">
-							<strong><a class="text-black fw-bold" href="#">Galaxy Fest</a></strong>
+							<strong style="color: #b9b9b9;">TO BE ANNOUNCED</strong>
 						</h6>
-						<p class="mbr-text mbr-fonts-style mb-3 display-7">May 20, 2024</p>
-						<p class="mbr-text mbr-fonts-style mb-3 display-7">Dive into a universe of wonder with cosmic-themed goodies and celestial delights!</p>
-						<div class="mbr-section-btn item-footer"><a href="#" class="btn item-btn btn-primary display-7">Join</a></div>
+						<p class="mbr-text mbr-fonts-style mb-3 display-7"></p>
+						<p class="mbr-text mbr-fonts-style mb-3 display-7"></p>
+						<!-- <div class="mbr-section-btn item-footer"><a href="#" class="btn item-btn btn-primary display-7"></a></div> -->
 					</div>
 				</div>
 			</div>
-			<div class="item features-image col-12 col-md-6 col-lg-3">
+      <div class="item features-image col-12 col-md-6 col-lg-3 animate__animated animate__delay-1s animate__fadeIn">
 				<div class="item-wrapper">
 					<div class="item-img mb-3">
-						<img src="assets/images/photo-1662402846439-8c30788fffd7.jpeg" data-slide-to="3" data-bs-slide-to="3">
+						<img src="assets/images/tba.png" data-slide-to="2" data-bs-slide-to="2">
 					</div>
 					<div class="item-content align-left">
 						<h6 class="item-subtitle mbr-fonts-style mt-0 mb-3 display-5">
-							<strong><a class="text-black fw-bold" href="#">Starry Night Soiree</a></strong>
+							<strong style="color: #b9b9b9;">TO BE ANNOUNCED</strong>
 						</h6>
-						<p class="mbr-text mbr-fonts-style mb-3 display-7">June 15, 2024</p>
-						<p class="mbr-text mbr-fonts-style mb-3 display-7">Celebrate under the stars with celestial fashion and enchanting accessories!</p>
-						<div class="mbr-section-btn item-footer"><a href="#" class="btn item-btn btn-primary display-7">Join</a></div>
+						<p class="mbr-text mbr-fonts-style mb-3 display-7"></p>
+						<p class="mbr-text mbr-fonts-style mb-3 display-7"></p>
+						<!-- <div class="mbr-section-btn item-footer"><a href="#" class="btn item-btn btn-primary display-7"></a></div> -->
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 </section>
-    <style>
-.cid-u4kixSSQ0g .mbr-fallback-image.disabled {
-  display: none;
-}
-.cid-u4kixSSQ0g .mbr-fallback-image {
-  display: block;
-  background-size: cover;
-  background-position: center center;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  background: #000000;
-}
-</style>
-<section class="header18 cid-u4kixSSQ0g mbr-fullscreen" data-bg-video="https://www.youtube.com/embed/OTxsB3mGKxg?autoplay&#x3D;1&amp;loop&#x3D;1&amp;playlist&#x3D;OTxsB3mGKxg&amp;t&#x3D;20&amp;mute&#x3D;1&amp;playsinline&#x3D;1&amp;controls&#x3D;0&amp;showinfo&#x3D;0&amp;autohide&#x3D;1&amp;allowfullscreen&#x3D;true&amp;mode&#x3D;transparent" id="video-5-u4kixSSQ0g">
-  <div class="mbr-overlay" style="opacity: 0.3; background-color: rgb(0, 0, 0);"></div>
-  <div class="container-fluid">
-    <div class="row">
-    </div>
-  </div>
-</section>
-    <style>
-    .cid-u4kixSSBbL {
-        padding-top: 5rem;
-        padding-bottom: 5rem;
-        background-color: transparent;
-    }
 
-    .cid-u4kixSSBbL img,
-    .cid-u4kixSSBbL .item-img {
-        width: 100%;
-        height: 100%;
-        height: 300px;
-        object-fit: cover;
-    }
 
-    .cid-u4kixSSBbL .item:focus,
-    .cid-u4kixSSBbL span:focus {
-        outline: none;
-    }
+<!-- InfoMATION -->
 
-    .cid-u4kixSSBbL .item {
-        margin-bottom: 2rem;
-    }
-
-    @media (max-width: 767px) {
-        .cid-u4kixSSBbL .item {
-            margin-bottom: 1rem;
-        }
-    }
-
-    .cid-u4kixSSBbL .item-content {
-        margin-top: 2rem;
-        padding: 0 2.25rem 2.25rem;
-        display: flex;
-        flex-direction: column;
-        height: 100%;
-    }
-
-    @media (min-width: 992px) and (max-width: 1200px) {
-        .cid-u4kixSSBbL .item-content {
-            padding: 2rem 1.5rem;
-            padding-top: 1rem;
-            margin-top: 1rem;
-        }
-    }
-
-    @media (max-width: 767px) {
-        .cid-u4kixSSBbL .item-content {
-            padding: 2rem 1.5rem;
-            padding-top: 1rem;
-            margin-top: 1rem;
-        }
-    }
-
-    .cid-u4kixSSBbL .item-wrapper {
-        position: relative;
-        background: #ffffff;
-        height: 100%;
-        display: flex;
-        flex-flow: column nowrap;
-    }
-
-    .cid-u4kixSSBbL .item-wrapper .item-footer {
-        margin-top: auto;
-    }
-
-    .cid-u4kixSSBbL .mbr-section-title {
-        color: #000000;
-    }
-
-    .cid-u4kixSSBbL .item-title {
-        text-align: left;
-    }
-
-    .cid-u4kixSSBbL .item-subtitle {
-        text-align: left;
-    }
-
-    .cid-u4kixSSBbL .mbr-text,
-    .cid-u4kixSSBbL .item .mbr-section-btn {
-        text-align: left;
-    }
-
-    .cid-u4kixSSBbL .content-head {
-        max-width: 800px;
-    }
-</style>
-<section class="pricing02 cid-u4kixSSBbL" id="product-list-8-u4kixSSBbL">
-    <div class="container-fluid">
-        <div class="row justify-content-center">
-            <div class="col-12 content-head">
-                <div class="mbr-section-head mb-5">
-                    <h4 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
-                        <strong>Explore the Universe</strong>
-                    </h4>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="item features-image col-12 col-md-6 col-lg-3">
-                <div class="item-wrapper">
-                    <div class="item-img">
-                        <img src="assets/images/photo-1662402846439-8c30788fffd7.jpeg" >
-                    </div>
-                    <div class="item-content">
-                        <h5 class="item-title mbr-fonts-style display-5">
-                            <strong>Clothing</strong>
-                        </h5>
-                        <h6 class="item-subtitle mbr-fonts-style display-7">
-                            $29.99
-                        </h6>
-                        <p class="mbr-text mbr-fonts-style display-7">
-                            Dress like a cosmic catbear with our trendy apparel.
-                        </p>
-                        <div class="mbr-section-btn item-footer"><a href=""
-                                class="btn item-btn btn-primary display-7">Get Yours</a></div>
-                    </div>
-
-                </div>
-            </div>
-            <div class="item features-image col-12 col-md-6 col-lg-3">
-                <div class="item-wrapper">
-                    <div class="item-img">
-                        <img src="assets/images/photo-1662402846439-8c30788fffd7.jpeg">
-                    </div>
-                    <div class="item-content">
-                        <h5 class="item-title mbr-fonts-style display-5">
-                            <strong>Decorations</strong>
-                        </h5>
-                        <h6 class="item-subtitle mbr-fonts-style display-7">
-                            $19.99
-                        </h6>
-                        <p class="mbr-text mbr-fonts-style display-7">
-                            Add a touch of whimsy to your space with our unique decor pieces.
-                        </p>
-                        <div class="mbr-section-btn item-footer"><a href=""
-                                class="btn item-btn btn-primary display-7">Get Yours</a></div>
-                    </div>
-                </div>
-            </div>
-            <div class="item features-image col-12 col-md-6 col-lg-3">
-                <div class="item-wrapper">
-                    <div class="item-img">
-                        <img src="assets/images/photo-1662402846439-8c30788fffd7.jpeg" alt="">
-                    </div>
-                    <div class="item-content">
-                        <h5 class="item-title mbr-fonts-style display-5">
-                            <strong>Digital Printing</strong>
-                        </h5>
-                        <h6 class="item-subtitle mbr-fonts-style display-7">
-                            $9.99
-                        </h6>
-                        <p class="mbr-text mbr-fonts-style display-7">
-                            Turn your memories into art with our high-quality printing services.<br>
-                        </p>
-                        <div class="mbr-section-btn item-footer"><a href=""
-                                class="btn item-btn btn-primary display-7">Get Yours</a></div>
-                    </div>
-                </div>
-            </div>
-            <div class="item features-image col-12 col-md-6 col-lg-3">
-                <div class="item-wrapper">
-                    <div class="item-img">
-                        <img src="assets/images/photo-1662402846439-8c30788fffd7.jpeg">
-                    </div>
-                    <div class="item-content">
-                        <h5 class="item-title mbr-fonts-style display-5">
-                            <strong>Custom Creations</strong>
-                        </h5>
-                        <h6 class="item-subtitle mbr-fonts-style display-7">
-                            $Varies
-                        </h6>
-                        <p class="mbr-text mbr-fonts-style display-7">
-                            Bring your imagination to life with our bespoke creations.<br>
-                        </p>
-                        <div class="mbr-section-btn item-footer"><a href=""
-                                class="btn item-btn btn-primary display-7">Get Yours</a></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-    <style>
-.cid-u4kixSTheM {
-  overflow: hidden;
-  background-image: url("assets/images/photo-1662402846439-8c30788fffd7.jpeg");
-}
-</style>
-<section class="image02 cid-u4kixSTheM mbr-fullscreen mbr-parallax-background" id="image-13-u4kixSTheM">
-    <div class="container">
-        <div class="row"></div>
-    </div>
-</section>
     <style>
   .cid-u4kixSTFb1 {
     padding-top: 5rem;
@@ -1489,6 +1256,7 @@
   .cid-u4kixSTFb1 .mbr-section-title {
     text-align: center;
     color: #000000;
+    font-size: larger;
   }
   .cid-u4kixSTFb1 .mbr-section-subtitle {
     color: #000000;
@@ -1499,13 +1267,13 @@
     color: #000000;
   }
 </style>
-<section class="list1 cid-u4kixSTFb1" id="faq-1-u4kixSTFb1">
+<!-- <section class="list1 cid-u4kixSTFb1" id="faq-1-u4kixSTFb1">
 	<div class="container">
 		<div class="row justify-content-center">
 			<div class="col-12 col-md-12 col-lg-10 m-auto">
 				<div class="content">
 					<div class="mbr-section-head align-left mb-5">
-						<h3 class="mbr-section-title mb-2 mbr-fonts-style display-2">
+						<h3 class="mbr-section-title mb-2 mbr-fonts-style display-2 animate__animated animate__delay-1s animate__fadeIn">
 							<strong>Curious Minds Ask</strong>
 						</h3>
 					</div>
@@ -1516,7 +1284,7 @@
 									<h6 class="panel-title-edit mbr-semibold mbr-fonts-style mb-0 display-5">
 										What inspires your designs?
 									</h6>
-									<span class="sign mbr-iconfont mobi-mbri-arrow-down"></span>
+									<span class="sign mbr-iconfont mobi-mbri-arrow-down mbri-arrow-down"></span>
 								</a>
 							</div>
 							<div id="collapse1_0" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_0">
@@ -1533,7 +1301,7 @@
 									<h6 class="panel-title-edit mbr-semibold mbr-fonts-style mb-0 display-5">
 										Do you ship internationally?
 									</h6>
-									<span class="sign mbr-iconfont mobi-mbri-arrow-down"></span>
+									<span class="sign mbr-iconfont mobi-mbri-arrow-down mbri-arrow-down"></span>
 								</a>
 							</div>
 							<div id="collapse2_0" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_0">
@@ -1550,7 +1318,7 @@
 									<h6 class="panel-title-edit mbr-semibold mbr-fonts-style mb-0 display-5">
 										Are your products eco-friendly?
 									</h6>
-									<span class="sign mbr-iconfont mobi-mbri-arrow-down"></span>
+									<span class="sign mbr-iconfont mobi-mbri-arrow-down mbri-arrow-down"></span>
 								</a>
 							</div>
 							<div id="collapse3_0" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_0">
@@ -1567,7 +1335,7 @@
 									<h6 class="panel-title-edit mbr-semibold mbr-fonts-style mb-0 display-5">
 										Can I request custom designs?
 									</h6>
-									<span class="sign mbr-iconfont mobi-mbri-arrow-down"></span>
+									<span class="sign mbr-iconfont mobi-mbri-arrow-down mbri-arrow-down"></span>
 								</a>
 							</div>
 							<div id="collapse4_0" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_0">
@@ -1584,7 +1352,7 @@
 									<h6 class="panel-title-edit mbr-semibold mbr-fonts-style mb-0 display-5">
 										Do you have a loyalty program?
 									</h6>
-									<span class="sign mbr-iconfont mobi-mbri-arrow-down"></span>
+									<span class="sign mbr-iconfont mobi-mbri-arrow-down mbri-arrow-down"></span>
 								</a>
 							</div>
 							<div id="collapse5_0" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_0">
@@ -1600,12 +1368,17 @@
 			</div>
 		</div>
 	</div>
-</section>
-    <style>
+</section> -->
+
+
+<!-- INTRO -->
+<style>
 .cid-u4kixSTw3Q {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: transparent;
+  background-color: #593942cc;
+  
+  
 }
 .cid-u4kixSTw3Q .mbr-fallback-image.disabled {
   display: none;
@@ -1620,7 +1393,7 @@
   top: 0;
 }
 .cid-u4kixSTw3Q .card-wrapper {
-  background: #ffffff;
+  background: #f5f5ef91;
 }
 @media (max-width: 767px) {
   .cid-u4kixSTw3Q .card-wrapper {
@@ -1644,37 +1417,50 @@
 }
 .cid-u4kixSTw3Q .card-title,
 .cid-u4kixSTw3Q .card-box {
-  text-align: left;
-  color: #000000;
+  text-align: center;
+  color: var(--background);
 }
 </style>
-<section class="article07 cid-u4kixSTw3Q" id="about-us-7-u4kixSTw3Q">
+<div>
+<div style="background-image: url('assets/images/BG2.jpg'); background-size: cover;background-attachment: fixed;">
+  <section class="article07 cid-u4kixSTw3Q" id="about-us-7-u4kixSTw3Q">
   <div class="container">
     <div class="row justify-content-center">
       <div class="card col-md-12 col-lg-10">
         <div class="card-wrapper">
-          <h3 class="card-title mbr-fonts-style mbr-white mt-3 mb-4 display-2">
-            <strong>Our Cosmic Mission</strong>
+          <h3 class="card-title mbr-fonts-style mbr-white mt-3 mb-4 display-2 animate__animated animate__delay-1s animate__fadeIn">
+            <strong style="text-transform:uppercase;">Catbear's Mission</strong>
           </h3>
           <div class="row card-box align-left">
-            <div class="item features-without-image col-12">
+            <div class="item features-without-image col-12 animate__animated animate__delay-1s animate__fadeIn">
               <div class="item-wrapper">
+                <p class="mbr-text mbr-fonts-style display-7" style="text-align: center;">
+                  <strong style="font-family: fantasy; font-size:1.5rem;color: var(--primary-color);margin-left: 2rem;">--- DON'T PANIC, TAKE A REST. ---</strong>
+                </p>
                 <p class="mbr-text mbr-fonts-style display-7">
-                At Lazy Catbear Universe, we believe in spreading joy and creativity through our cosmic-inspired products.
+                  In this busy world, why not slow down and take a moment to lazily idle away with a Catbear? 
                 </p>
               </div>
             </div>
-            <div class="item features-without-image col-12">
+            <div class="item features-without-image col-12 animate__animated animate__delay-1s animate__fadeIn">
               <div class="item-wrapper">
                 <p class="mbr-text mbr-fonts-style display-7">
-                  Join us on a journey through the stars as we bring the magic of the universe into your everyday life.
+                  Our brand philosophy is simple: Through the image of the Lazy Catbear, we want to remind everyone in the hustle and bustle of life not to forget themselves amidst the crowd, not to succumb to anxiety and stress, but rather to enjoy every moment of life like Lazy Catbear.
                 </p>
               </div>
             </div>
-            <div class="item features-without-image col-12">
+            <div class="item features-without-image col-12 animate__animated animate__delay-1s animate__fadeIn">
               <div class="item-wrapper">
                 <p class="mbr-text mbr-fonts-style display-7">
-                  Embrace your inner catbear and explore a universe where imagination knows no bounds.
+                  Our products are not just commodities; they symbolize a way of life. Every time you use our products, we with to bring you a bit of relaxation and happiness, reminding you that no matter how hectic life gets, you can always choose to unwind, not panic, and simply take a break to be yourself.
+                </p>
+                <p class="mbr-text mbr-fonts-style display-7">
+                  The mission of Lazy Catbear Collection is to provide you with these calm and joyful moments, wherever you are, so that you can feel the beauty of laziness and occasional world-weariness anytime, anywhere. So, don't panic, just relax, and enjoy the beauty of life with Lazy Catbear.
+                </p>
+                <br>
+                <br>
+                <p class="mbr-text mbr-fonts-style display-7" style="text-align: right;">
+                  <strong style="font-family: fantasy; font-size:larger;color: var(--primary-color);margin-left: 2rem;">--- CATBEAR</strong>
                 </p>
               </div>
             </div>
@@ -1684,320 +1470,8 @@
     </div>
   </div>
 </section>
-    <style>
-.cid-u4kixSTCM8 {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
-  background-color: transparent;
-}
-.cid-u4kixSTCM8 .item-wrapper img {
-  width: 80px;
-  height: 80px;
-  object-fit: cover;
-  border-radius: 50% !important;
-}
-.cid-u4kixSTCM8 .item-wrapper {
-  background: #ffffff;
-  margin-bottom: 2rem;
-  padding: 2.25rem;
-}
-@media (min-width: 992px) and (max-width: 1200px) {
-  .cid-u4kixSTCM8 .item-wrapper {
-    padding: 1.5rem;
-    margin-bottom: 2rem;
-  }
-}
-@media (max-width: 767px) {
-  .cid-u4kixSTCM8 .item-wrapper {
-    padding: 1.5rem;
-    margin-bottom: 1rem;
-  }
-}
-.cid-u4kixSTCM8 .card-title,
-.cid-u4kixSTCM8 .iconfont-wrapper {
-  color: #000000;
-}
-.cid-u4kixSTCM8 .card-text {
-  color: #000000;
-  text-align: left;
-}
-.cid-u4kixSTCM8 .content-head {
-  max-width: 800px;
-}
-.cid-u4kixSTCM8 .mbr-section-title {
-  color: #000000;
-}
-.cid-u4kixSTCM8 .card-title,
-.cid-u4kixSTCM8 .img-wrapper {
-  text-align: center;
-}
-.cid-u4kixSTCM8 .img-wrapper {
-  display: flex;
-  justify-content: center;
-}
-</style>
-<section class="people04 cid-u4kixSTCM8" id="testimonials-4-u4kixSTCM8">
-	<div class="container">
-		<div class="row mb-5 justify-content-center">
-			<div class="col-12 mb-0 content-head">
-				<h3 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
-					<strong>Cosmic Vibes</strong>
-				</h3>	
-			</div>
-		</div>
-		<div class="row mbr-masonry" data-masonry="{&quot;percentPosition&quot;: true }">
-			<div class="item features-without-image col-12 col-md-6 col-lg-4 active">
-				<div class="item-wrapper">
-					<div class="card-box align-left">
-						<p class="card-text mbr-fonts-style display-7">
-							Absolutely love my cosmic hoodie! It&#x27;s so comfy and stylish. Thank you, Lazy Catbear Universe!
-						</p>
-						<div class="img-wrapper mt-4 mb-3">
-							<img src="assets/images/photo-1676385901160-31e1b9e1c0c7.jpeg" data-slide-to="0" data-bs-slide-to="0">
-						</div>
-						<h5 class="card-title mbr-fonts-style display-7">
-							<strong>Stella M.</strong>
-						</h5>
-					</div>
-				</div>
-			</div>
-			<div class="item features-without-image col-12 col-md-6 col-lg-4">
-				<div class="item-wrapper">
-					<div class="card-box align-left">
-						<p class="card-text mbr-fonts-style display-7">
-							The decorations I bought are out of this world! They add a touch of magic to my room.
-						</p>
-						<div class="img-wrapper mt-4 mb-3">
-							<img src="assets/images/photo-1509098681029-b45e9c845022.jpeg" data-slide-to="1" data-bs-slide-to="1">
-						</div>
-						<h5 class="card-title mbr-fonts-style display-7">
-							<strong>Leo P.</strong>
-						</h5>
-					</div>
-				</div>
-			</div>
-			<div class="item features-without-image col-12 col-md-6 col-lg-4">
-				<div class="item-wrapper">
-					<div class="card-box align-left">
-						<p class="card-text mbr-fonts-style display-7">
-							Incredible digital printing quality! My memories look even more special now. Highly recommend!
-						</p>
-						<div class="img-wrapper mt-4 mb-3">
-							<img src="assets/images/photo-1513207565459-d7f36bfa1222.jpeg" data-slide-to="2" data-bs-slide-to="2">
-						</div>
-						<h5 class="card-title mbr-fonts-style display-7">
-							<strong>Aria S.</strong>
-						</h5>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-    <style>
-.cid-u4kixSU0LC {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
-  background-color: #ffffff;
-}
-.cid-u4kixSU0LC .item:focus,
-.cid-u4kixSU0LC span:focus {
-  outline: none;
-}
-.cid-u4kixSU0LC .container-fluid {
-  padding-left: 0;
-  padding-right: 0;
-  overflow: hidden;
-}
-.cid-u4kixSU0LC .content-head {
-  max-width: 800px;
-}
-.cid-u4kixSU0LC .item {
-  color: #232323;
-  min-height: 90px;
-  font-weight: bold;
-}
-@media (max-width: 768px) {
-  .cid-u4kixSU0LC .item {
-    min-height: 45px;
-  }
-}
-</style>
-<section class="gallery10 cid-u4kixSU0LC" id="features-69-u4kixSU0LC">
-  <div class="container-fluid">
-      <div class="loop-container">
-        <div class="item display-1" data-linewords="
-          Discover the Whimsical World of Lazy Catbear Universe *
-          Explore Malaysian Magic in Every Creation *" 
-        data-direction="-1" data-speed="0.05">
-        </div>
-        <div class="item display-1" data-linewords="
-          Discover the Whimsical World of Lazy Catbear Universe *
-          Explore Malaysian Magic in Every Creation *" 
-        data-direction="-1" data-speed="0.05">
-        </div>
-      </div>   
-  </div>
-</section>
-    <style>
-    .cid-u4kixSUK8g {
-        padding-top: 5rem;
-        padding-bottom: 3rem;
-        background-color: #ffffff;
-    }
-
-    .cid-u4kixSUK8g .item-subtitle {
-        line-height: 1.2;
-        color: #000000;
-    }
-
-    .cid-u4kixSUK8g img,
-    .cid-u4kixSUK8g .item-img {
-        width: 100%;
-        height: 100%;
-        height: 300px;
-        object-fit: cover;
-    }
-
-    .cid-u4kixSUK8g .item:focus,
-    .cid-u4kixSUK8g span:focus {
-        outline: none;
-    }
-
-    .cid-u4kixSUK8g .item {
-        margin-bottom: 2rem;
-    }
-
-    @media (max-width: 767px) {
-        .cid-u4kixSUK8g .item {
-            margin-bottom: 1rem;
-        }
-    }
-
-    .cid-u4kixSUK8g .item-wrapper {
-        position: relative;
-        border-radius: 4px;
-        height: 100%;
-        display: flex;
-        flex-flow: column nowrap;
-    }
-
-    .cid-u4kixSUK8g .mbr-section-title {
-        color: #000000;
-    }
-
-    .cid-u4kixSUK8g .mbr-text,
-    .cid-u4kixSUK8g .mbr-section-btn {
-        color: #000000;
-    }
-
-    .cid-u4kixSUK8g .item-title {
-        color: #000000;
-    }
-
-    .cid-u4kixSUK8g .content-head {
-        max-width: 800px;
-    }
-</style>
-<section class="blog-2 cid-u4kixSUK8g" id="blog-2-u4kixSUK8g">
-    <div class="container-fluid">
-        <div class="row justify-content-center mb-5">
-            <div class="col-12 content-head">
-                <div class="mbr-section-head">
-                    <h4 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
-                        <strong>Latest Adventures Await</strong>
-                    </h4>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="item features-image col-12 col-md-6 col-lg-3 active">
-                <div class="item-wrapper">
-                    <div class="item-img mb-3">
-                        <img src="assets/images/photo-1662402846439-8c30788fffd7.jpeg">
-                    </div>
-                    <div class="item-content align-left">
-                        <h5 class="item-title mbr-fonts-style mt-0 mb-3 display-7">
-                            Exclusive
-                        </h5>
-                        <h6 class="item-subtitle mbr-fonts-style mb-3 display-5">
-                            <strong>Unveiling New Designs</strong>
-                        </h6>
-
-                        <div class="mbr-section-btn item-footer">
-                            <a href="" class="btn item-btn btn-primary display-7">
-                                Read
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="item features-image col-12 col-md-6 col-lg-3">
-                <div class="item-wrapper">
-                    <div class="item-img mb-3">
-                        <img src="assets/images/photo-1662402846439-8c30788fffd7.jpeg" data-slide-to="1" data-bs-slide-to="1">
-                    </div>
-                    <div class="item-content align-left">
-                        <h5 class="item-title mbr-fonts-style mb-3 mt-0 display-7">
-                            Sneak Peek
-                        </h5>
-                        <h6 class="item-subtitle mbr-fonts-style mb-3 display-5">
-                            <strong>Behind the Scenes Fun</strong>
-                        </h6>
-                        <div class="mbr-section-btn item-footer">
-                            <a href="" class="btn item-btn btn-primary display-7">
-                                Read
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="item features-image col-12 col-md-6 col-lg-3">
-                <div class="item-wrapper">
-                    <div class="item-img mb-3">
-                        <img src="assets/images/photo-1662402846439-8c30788fffd7.jpeg" data-slide-to="2" data-bs-slide-to="2">
-                    </div>
-                    <div class="item-content align-left">
-                        <h5 class="item-title mbr-fonts-style mb-3 mt-0 display-7">
-                            Exciting
-                        </h5>
-                        <h6 class="item-subtitle mbr-fonts-style mt-0 mb-3 display-5">
-                            <strong>Meet the Creative Minds</strong>
-                        </h6>
-                        <div class="mbr-section-btn item-footer">
-                            <a href="" class="btn item-btn btn-primary display-7">
-                                Read
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="item features-image col-12 col-md-6 col-lg-3">
-                <div class="item-wrapper">
-                    <div class="item-img mb-3">
-                        <img src="assets/images/photo-1662402846439-8c30788fffd7.jpeg" data-slide-to="3" data-bs-slide-to="4">
-                    </div>
-                    <div class="item-content align-left">
-                        <h5 class="item-title mbr-fonts-style mb-3 mt-0 display-7">
-                            Limited
-                        </h5>
-                        <h6 class="item-subtitle mbr-fonts-style mt-0 mb-3 display-5">
-                            <strong>
-                                Grab Your Favorites Now
-                            </strong>
-                        </h6>
-
-                        <div class="mbr-section-btn item-footer">
-                            <a href="" class="btn item-btn btn-primary display-7">
-                                Read
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+</div>
+</div>
     <style>
   .cid-u4kixSUXRZ {
     padding-top: 5rem;
@@ -2065,12 +1539,12 @@
     color: var(--dominant-text, #ffd7ef);
   }
 </style>
-<section class="header2 cid-u4kixSUXRZ" id="subscription-form-1-u4kixSUXRZ">
+<!-- <section class="header2 cid-u4kixSUXRZ" id="subscription-form-1-u4kixSUXRZ">
   <div class="container">
     <div class="row content-wrapper justify-content-center">
-      <div class="col-lg-8 mbr-form">
-        <div class="">
-          <h1 class="mbr-section-title mbr-fonts-style mb-5 display-1">
+      <div class="col-lg-8">
+        <div class="mbr-form">
+          <h1 class="mbr-section-title mbr-fonts-style mb-5 display-1 animate__animated animate__delay-1s animate__fadeIn">
             <strong>Stay in the Loop for Surprises</strong>
           </h1>
         </div>
@@ -2084,7 +1558,7 @@
             </div>
             <div class="dragArea row">
               <div data-for="email" class="col-lg-6 col-md-6 col-sm-12 form-group">
-                <input type="email" name="email" placeholder="test@email.com" data-form-field="email" class="form-control display-7" value="" id="email-header02-0">
+                <input type="email" name="email" placeholder="Subscribe on email" data-form-field="email" class="form-control display-7" value="" id="email-header02-0">
               </div>
               <div class="col-auto mbr-section-btn"><button type="submit" class="w-100 btn btn-primary display-7">Subscribe</button></div>
             </div>
@@ -2094,307 +1568,17 @@
     </div>
   </div>
 </section>
-    <style>
-  .cid-u4kixSUXIz {
-    padding-top: 5rem;
-    padding-bottom: 3rem;
-    background-color: #ffffff;
-  }
-  .cid-u4kixSUXIz .item-subtitle {
-    line-height: 1.2;
-    color: #000000;
-    text-align: center;
-  }
-  .cid-u4kixSUXIz img,
-  .cid-u4kixSUXIz .item-img {
-    width: 100%;
-    height: 100%;
-    height: 400px;
-    object-fit: cover;
-  }
-  .cid-u4kixSUXIz .item:focus,
-  .cid-u4kixSUXIz span:focus {
-    outline: none;
-  }
-  .cid-u4kixSUXIz .item {
-    margin-bottom: 2rem;
-  }
-  @media (max-width: 767px) {
-    .cid-u4kixSUXIz .item {
-      margin-bottom: 1rem;
-    }
-  }
-  .cid-u4kixSUXIz .item-wrapper {
-    position: relative;
-    border-radius: 4px;
-    display: flex;
-    flex-flow: column nowrap;
-  }
-  .cid-u4kixSUXIz .mbr-section-btn {
-    margin-top: auto !important;
-  }
-  .cid-u4kixSUXIz .mbr-section-title {
-    color: #000000;
-  }
-  .cid-u4kixSUXIz .mbr-text,
-  .cid-u4kixSUXIz .mbr-section-btn {
-    color: #000000;
-    text-align: center;
-  }
-  .cid-u4kixSUXIz .item-title {
-    color: #000000;
-  }
-  .cid-u4kixSUXIz .content-head {
-    max-width: 800px;
-  }
-</style>
-<section class="people03 cid-u4kixSUXIz" id="team-1-u4kixSUXIz">
-	<div class="container-fluid">
-		<div class="row justify-content-center">
-			<div class="col-12 content-head">
-				<div class="mbr-section-head mb-5">
-					<h4 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
-						<strong>Meet Us</strong>
-					</h4>
-				</div>
-			</div>
-		</div>
-		<div class="row">
-			<div class="item features-image col-12 col-md-6 col-lg-3">
-				<div class="item-wrapper">
-					<div class="item-img mb-3">
-						<img src="assets/images/photo-1527718641255-324f8e2d0421.jpeg">
-					</div>
-					<div class="item-content align-left">
-						<h6 class="item-subtitle mbr-fonts-style display-5">
-							<strong>Leo</strong></h6>
-						<p class="mbr-text mbr-fonts-style display-7">Chief Dreamer</p>
-					</div>
-				</div>
-			</div>
-			<div class="item features-image col-12 col-md-6 col-lg-3">
-				<div class="item-wrapper">
-					<div class="item-img mb-3">
-						<img src="assets/images/photo-1569078449082-d264d9e239c5.jpeg">
-					</div>
-					<div class="item-content align-left">
-						<h6 class="item-subtitle mbr-fonts-style display-5">
-							<strong>Luna</strong></h6>
-						<p class="mbr-text mbr-fonts-style display-7">Master of Creativity</p>
-					</div>
-				</div>
-			</div>
-			<div class="item features-image col-12 col-md-6 col-lg-3">
-				<div class="item-wrapper">
-					<div class="item-img mb-3">
-						<img src="assets/images/photo-1557684387-08927d28c72a.jpeg">
-					</div>
-					<div class="item-content align-left">
-						<h6 class="item-subtitle mbr-fonts-style display-5">
-							<strong>Max</strong></h6>
-						<p class="mbr-text mbr-fonts-style display-7">Wizard of Innovation</p>
-					</div>
-				</div>
-			</div>
-      <div class="item features-image col-12 col-md-6 col-lg-3">
-        <div class="item-wrapper">
-          <div class="item-img mb-3">
-            <img src="assets/images/photo-1589156191108-c762ff4b96ab.jpeg">
-          </div>
-          <div class="item-content align-left">
-            <h6 class="item-subtitle mbr-fonts-style display-5">
-              <strong>Aria</strong>
-            </h6>
-            <p class="mbr-text mbr-fonts-style display-7">Queen of Quirkiness</p>
-          </div>
-        </div>
-      </div>
-		</div>
-	</div>
-</section>
-    <style>
-  .cid-u4kixSUfXD {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-    background-color: #ffffff;
-  }
-  .cid-u4kixSUfXD .item-subtitle {
-    line-height: 1.2;
-    color: #000000;
-  }
-  .cid-u4kixSUfXD img,
-  .cid-u4kixSUfXD .item-img {
-    width: 100%;
-  }
-  .cid-u4kixSUfXD .item:focus,
-  .cid-u4kixSUfXD span:focus {
-    outline: none;
-  }
-  .cid-u4kixSUfXD .item {
-    margin-bottom: 2rem;
-  }
-  @media (max-width: 575px) {
-    .cid-u4kixSUfXD .item {
-      margin-bottom: 1rem;
-    }
-  }
-  .cid-u4kixSUfXD .item-wrapper {
-    position: relative;
-    border-radius: 4px;
-    height: 100%;
-    display: flex;
-    flex-flow: column nowrap;
-  }
-  .cid-u4kixSUfXD .mbr-section-title {
-    color: #000000;
-  }
-  .cid-u4kixSUfXD .mbr-text,
-  .cid-u4kixSUfXD .mbr-section-btn {
-    color: #000000;
-  }
-  .cid-u4kixSUfXD .item-title {
-    color: #000000;
-    text-align: center;
-  }
-  .cid-u4kixSUfXD .content-head {
-    max-width: 800px;
-  }
-  .cid-u4kixSUfXD img {
-    filter: grayscale(1);
-  }
-</style>
-<section class="features03 cid-u4kixSUfXD" id="partners-1-u4kixSUfXD">
-    <div class="container-fluid">
-        <div class="row justify-content-center mb-5">
-            <div class="col-12 content-head">
-                <div class="mbr-section-head">
-                    <h4 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
-                        <strong>Our Collaborators</strong>
-                    </h4>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="item features-image col-12 col-md-6 col-sm-6 col-lg-2 active">
-                <div class="item-wrapper">
-                    <div class="item-img">
-                        <img src="assets/images/photo-1642427749670-f20e2e76ed8c.jpeg" data-slide-to="1" data-bs-slide-to="1">
-                    </div>
-                </div>
-            </div>
-            <div class="item features-image col-12 col-md-6 col-sm-6 col-lg-2">
-                <div class="item-wrapper">
-                    <div class="item-img">
-                        <img src="assets/images/photo-1517191434949-5e90cd67d2b6.jpeg" data-slide-to="2" data-bs-slide-to="2">
-                    </div>
-                </div>
-            </div>
-            <div class="item features-image col-12 col-md-6 col-sm-6 col-lg-2">
-                <div class="item-wrapper">
-                    <div class="item-img">
-                        <img src="assets/images/photo-1631700611307-37dbcb89ef7e.jpeg" data-slide-to="3" data-bs-slide-to="3">
-                    </div>
-                </div>
-            </div>
-            <div class="item features-image col-12 col-md-6 col-sm-6 col-lg-2">
-                <div class="item-wrapper">
-                    <div class="item-img">
-                        <img src="assets/images/photo-1622547748225-3fc4abd2cca0.jpeg" data-slide-to="4" data-bs-slide-to="4">
-                    </div>
-                </div>
-            </div>
-            <div class="item features-image col-12 col-md-6 col-sm-6 col-lg-2">
-                <div class="item-wrapper">
-                    <div class="item-img">
-                        <img src="assets/images/photo-1617791160588-241658c0f566.jpeg" data-slide-to="5" data-bs-slide-to="5">
-                    </div>
-                </div>
-            </div>
-            <div class="item features-image col-12 col-md-6 col-sm-6 col-lg-2">
-                <div class="item-wrapper">
-                    <div class="item-img">
-                        <img src="assets/images/photo-1618005198919-d3d4b5a92ead.jpeg" data-slide-to="6" data-bs-slide-to="6">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-    <style>
-    .cid-u4kixSUCd8 {
-        padding-top: 5rem;
-        padding-bottom: 5rem;
-        background-image: url("assets/images/photo-1662402846439-8c30788fffd7.jpeg")
-    }
+     -->
 
-    .cid-u4kixSUCd8 .mbr-fallback-image.disabled {
-        display: none;
-    }
+    
 
-    .cid-u4kixSUCd8 .mbr-fallback-image {
-        display: block;
-        background-size: cover;
-        background-position: center center;
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        top: 0;
-    }
+    
 
-    .cid-u4kixSUCd8 .card-wrapper {
-        background: #ffffff;
-    }
-
-    @media (max-width: 767px) {
-        .cid-u4kixSUCd8 .card-wrapper {
-            padding: 2rem 1.5rem;
-            margin-bottom: 1rem;
-        }
-    }
-
-    @media (min-width: 768px) and (max-width: 991px) {
-        .cid-u4kixSUCd8 .card-wrapper {
-            padding: 2.25rem;
-        }
-    }
-
-    @media (min-width: 992px) {
-        .cid-u4kixSUCd8 .card-wrapper {
-            padding: 4rem;
-        }
-    }
-
-    .cid-u4kixSUCd8 .mbr-text,
-    .cid-u4kixSUCd8 .mbr-section-btn {
-        text-align: center;
-    }
-</style>
-<section class="header14 cid-u4kixSUCd8 mbr-parallax-background" id="call-to-action-9-u4kixSUCd8">
-	<div class="container">
-		<div class="row justify-content-center">
-			<div class="card col-12 col-md-12 col-lg-10">
-				<div class="card-wrapper">
-					<div class="card-box align-center">
-						<h1 class="card-title mbr-fonts-style mb-4 display-1">
-							<strong>Discover Our Unique Creations</strong>
-						</h1>
-						<p class="mbr-text mbr-fonts-style mb-4 display-7">
-							Explore the Wild World of Lazy Catbear Universe
-                        </p>
-						<div class="mbr-section-btn mt-4">
-                            <a class="btn btn-primary display-7" href="#">Explore Now</a>
-                        </div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-    <style>
+<style>
 .cid-u4kixSUM57 {
   padding-top: 6rem;
   padding-bottom: 6rem;
-  background-color: #ffffff;
+  background-color: var(--dominant-color);
 }
 .cid-u4kixSUM57 .social-row {
   display: flex;
@@ -2430,43 +1614,45 @@
 }
 .cid-u4kixSUM57 .mbr-section-title,
 .cid-u4kixSUM57 .social-list {
-  color: #000000;
+  color: #ffffff;
 }
 
 </style>
+
+<!-- social-list -->
 <section class="social05 cid-u4kixSUM57" id="follow-us-2-u4kixSUM57">
     <div class="container">
         <div class="row">
-            <h3 class="mbr-section-title align-center mb-5 mbr-fonts-style display-2">
-                <strong>Follow Us for Fun</strong>
+            <h3 class="mbr-section-title align-center mb-5 mbr-fonts-style display-2 animate__animated animate__delay-1s animate__fadeIn">
+                <strong>Follow Us for more</strong>
             </h3>
             <div class="col-12">
                 <div class="social-row">
                     <div class="soc-item">
-                        <a href="#" target="_blank">
+                        <a href="https://www.facebook.com/Lazy.CatBear/" target="_blank" class="animate__animated animate__delay-1s animate__fadeIn">
                             <span class="mbr-iconfont socicon socicon-facebook"></span>
                         </a>
                     </div>
-                    <div class="soc-item">
-                        <a href="#" target="_blank">
+                    <!-- <div class="soc-item">
+                        <a href="#" target="_blank" class="animate__animated animate__delay-1s animate__fadeIn">
                             <span class="mbr-iconfont socicon-twitter socicon"></span>
                         </a>
-                    </div>
+                    </div> -->
                     <div class="soc-item">
-                        <a href="#" target="_blank">
+                        <a href="https://www.instagram.com/lazy.catbear/" target="_blank" class="animate__animated animate__delay-1s animate__fadeIn">
                             <span class="mbr-iconfont socicon-instagram socicon"></span>
                         </a>
                     </div>
-                    <div class="soc-item">
-                        <a href="#" target="_blank">
+                     <div class="soc-item">
+                        <a href="https://www.linkedin.com/in/catbear-lazy-5658172a3/?locale=en_US" target="_blank" class="animate__animated animate__delay-1s animate__fadeIn">
                             <span class="mbr-iconfont socicon socicon-linkedin"></span>
                         </a>
                     </div>
-                    <div class="soc-item">
-                        <a href="#" target="_blank">
+                    <!--<div class="soc-item">
+                        <a href="#" target="_blank" class="animate__animated animate__delay-1s animate__fadeIn">
                             <span class="mbr-iconfont socicon socicon-twitch"></span>
                         </a>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -2499,12 +1685,12 @@
 }
 
 </style>
-<section class="form5 cid-u4kixSUC15" id="contact-form-2-u4kixSUC15">
+<!-- <section class="form5 cid-u4kixSUC15" id="contact-form-2-u4kixSUC15">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-12 content-head">
                 <div class="mbr-section-head mb-5">
-                    <h3 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
+                    <h3 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2 animate__animated animate__delay-1s animate__fadeIn">
                         <strong>Get in Touch</strong>
                     </h3>                    
                 </div>
@@ -2535,8 +1721,8 @@
             </div>
         </div>
     </div>
-</section>
-    <style>
+</section> -->
+<style>
 .cid-u4kixSU8AJ {
   padding-top: 6rem;
   padding-bottom: 6rem;
@@ -2587,55 +1773,45 @@
 }
 
 </style>
+
 <section class="contacts01 cid-u4kixSU8AJ" id="contacts-1-u4kixSU8AJ">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-12 content-head">
                 <div class="mbr-section-head mb-5">
-                    <h3 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
+                    <h3 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2 animate__animated animate__delay-1s animate__fadeIn">
                         <strong>Contact Us</strong>
                     </h3>
                 </div>
             </div>
         </div>
         <div class="row">
-            <div class="item features-without-image col-12 col-md-6 active">
+            <div class="item features-without-image col-12 col-md-6 active animate__animated animate__delay-1s animate__fadeIn">
                 <div class="item-wrapper">
                     <div class="text-wrapper">
                         <h6 class="card-title mbr-fonts-style mb-3 display-5">
-                            <strong>Phone</strong>
+                            <strong>Whatapps</strong>
                         </h6>
                         <p class="mbr-text mbr-fonts-style display-7">
-                            <a href="tel:+60 12 345 6789" class="text-black">+60 12 345 6789</a>
+                            <a href="tel:+60 1110994066" class="text-black">+60 11 1099 4066</a>
                         </p>
                     </div>
                 </div>
             </div>
-            <div class="item features-without-image col-12 col-md-6">
+            <div class="item features-without-image col-12 col-md-6 animate__animated animate__delay-1s animate__fadeIn">
                 <div class="item-wrapper">
                     <div class="text-wrapper">
                         <h6 class="card-title mbr-fonts-style mb-3 display-5">
                             <strong>Email</strong>
                         </h6>
                         <p class="mbr-text mbr-fonts-style display-7">
-                            <a href="mailto:info@lazycatbear.com" class="text-black">info@lazycatbear.com</a>
+                            <a href="mailto:lazy.catbear@gmail.com" class="text-black">lazy.catbear@gmail.com</a>
                         </p>
                     </div>
                 </div>
             </div>
-            <div class="item features-without-image col-12 col-md-6">
-                <div class="item-wrapper">
-                    <div class="text-wrapper">
-                        <h6 class="card-title mbr-fonts-style mb-3 display-5">
-                            <strong>Address</strong>
-                        </h6>
-                        <p class="mbr-text mbr-fonts-style display-7">
-                            123 Lazy Lane, Kuala Lumpur
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="item features-without-image col-12 col-md-6">
+            
+            <div class="item features-without-image col-12 col-md-6 animate__animated animate__delay-1s animate__fadeIn">
                 <div class="item-wrapper">
                     <div class="text-wrapper">
                         <h6 class="card-title mbr-fonts-style mb-3 display-5">
@@ -2647,6 +1823,19 @@
                     </div>
                 </div>
             </div>
+            
+            <div class="item features-without-image col-12 col-md-6 animate__animated animate__delay-1s animate__fadeIn">
+              <div class="item-wrapper">
+                  <div class="text-wrapper">
+                      <h6 class="card-title mbr-fonts-style mb-3 display-5">
+                          <strong>For business inquiries, please contact us via email</strong>
+                      </h6>
+                      <p class="mbr-text mbr-fonts-style display-7">
+                          Thank you.
+                      </p>
+                  </div>
+              </div>
+          </div>
         </div>
     </div>
 </section>
@@ -2714,48 +1903,104 @@
         <div class="row">
             <div class="row-links">
                 <ul class="header-menu">
-                <li class="header-menu-item mbr-fonts-style display-5">
-                    <a href="#" class="text-white">About</a>
-                  </li><li class="header-menu-item mbr-fonts-style display-5">
-                    <a href="#" class="text-white">Shop</a>
-                  </li><li class="header-menu-item mbr-fonts-style display-5">
-                    <a href="#" class="text-white">Events</a>
-                  </li><li class="header-menu-item mbr-fonts-style display-5">
-                    <a href="#" class="text-white">FAQ</a>
-                  </li></ul>
+                <li class="header-menu-item mbr-fonts-style display-5 animate__animated animate__delay-1s animate__fadeIn">
+                    <a href="#about-us-7-u4kixSTw3Q" class="text-white animate__animated animate__delay-1s animate__fadeIn">About</a>
+                  </li><li class="header-menu-item mbr-fonts-style display-5 animate__animated animate__delay-1s animate__fadeIn">
+                    <a href="https://shopee.com.my/lazy.catbear" class="text-white animate__animated animate__delay-1s animate__fadeIn">Shop(MY)</a>
+                  </li><li class="header-menu-item mbr-fonts-style display-5 animate__animated animate__delay-1s animate__fadeIn">
+                    <a href="#events-1-u4kixSSEYq" class="text-white animate__animated animate__delay-1s animate__fadeIn">Events</a>
+                  </li><li class="header-menu-item mbr-fonts-style display-5 animate__animated animate__delay-1s animate__fadeIn">
+                    <a href="mailto:lazy.catbear@gmail.com" class="text-white animate__animated animate__delay-1s animate__fadeIn">Contact Us</a>
+                  </li>
+                  </li><li class="header-menu-item mbr-fonts-style display-5 animate__animated animate__delay-1s animate__fadeIn">
+                    <a class="animate__animated animate__delay-1s animate__fadeIn" style="color: #4d4d4d;">NFT COLLECTION</a>
+                  </li>
+                </ul>
               </div>
             <div class="col-12 mt-4">
-                <p class="mbr-fonts-style copyright display-7">
-                    © 2024 Lazy Catbear Universe. All Rights Reserved
+                <p class="mbr-fonts-style copyright display-7 animate__animated animate__delay-1s animate__fadeIn">
+                    © 2024 Lazy Catbear Universe. Lazy Catbear Creative Studio All Rights Reserved
                 </p>
+
+                <!-- <audio id="BGM" volume="0.4">
+                  <source src="assets/Music/BGM.mp3", type="audio/mpeg">
+                </audio> -->
             </div>
         </div>
     </div>
 </section>
 
-<script src="assets/parallax/jarallax.js"></script>
-  <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/dropdown/js/navbar-dropdown.js"></script>
-  <script src="assets/scrollgallery/scroll-gallery.js"></script>
-  <script src="assets/embla/embla.min.js"></script>
-  <script src="assets/embla/script.js"></script>
-  <script src="assets/mbr-switch-arrow/mbr-switch-arrow.js"></script>
-  <script src="assets/masonry/masonry.pkgd.min.js"></script>
-  <script src="assets/imagesloaded/imagesloaded.pkgd.min.js"></script>
-  <script src="assets/smoothscroll/smooth-scroll.js"></script>
-  <script src="assets/ytplayer/index.js"></script>
-  <script src="assets/theme/js/script.js"></script>
-  <script src="assets/formoid/formoid.min.js"></script>
+
   
-  <script>
+<script src="assets/parallax/jarallax.js">
+</script>
+<script src="assets/bootstrap/js/bootstrap.bundle.min.js">
+</script>
+<script src="assets/dropdown/js/navbar-dropdown.js">
+</script>
+<script src="assets/scrollgallery/scroll-gallery.js">
+</script>
+<script src="assets/embla/embla.min.js">
+</script>
+<script src="assets/embla/script.js">
+</script>
+<script src="assets/mbr-switch-arrow/mbr-switch-arrow.js">
+</script>
+<script src="assets/masonry/masonry.pkgd.min.js">
+</script>
+<script src="assets/imagesloaded/imagesloaded.pkgd.min.js">
+</script>
+<script src="assets/smoothscroll/smooth-scroll.js">
+</script>
+<script src="assets/theme/js/script.js">
+</script>
+<script src="assets/formoid/formoid.min.js">
+</script>
+<script>
+  //Loadin
+  let LOading_Block = document.getElementById("Loading_Span");
+  //Player
+  let Player = document.getElementById("BGM_Player");
+  let BTN = document.getElementById("BGM_btn");
+  
+  BTN.style.backgroundImage = 'url("assets/images/Sound_off.png")';
+  Player.volume = 0.4;
+  
+  if (sec < 0)
+  {
+    document.getElementById("BODY").style = ""; 
+    LOading_Block.style.animation = 'Loaded_Out 2s ease 0s 1 normal forwards';
+  }
+  
+  function EndFunction()
+  {
+    LOading_Block.remove();
+  }
+  
+  LOading_Block.addEventListener("animationend",EndFunction);
+  
+  function PLAYer_play(){
+    Player.play();
+    BTN.style.backgroundImage = 'url("assets/images/Sound_on.gif")';}
+  
+  if(!Player.paused) //If autoplay succeed.
+  {
+    BTN.style.backgroundImage = 'url("assets/images/Sound_on.gif")';
+  }
+  
+  function BGM_on_off()
+  {
+    if (!Player.paused) //Is playing
+    {
+      BTN.style.backgroundImage = 'url("assets/images/Sound_off.png")';
+      Player.pause();
+    } 
 
-    (function(){
-      var animationInput = document.createElement('input');
-      animationInput.setAttribute('name', 'animation');
-      animationInput.setAttribute('type', 'hidden');
-      document.body.append(animationInput);
-    })();
+    else{
+      BTN.style.backgroundImage = 'url("assets/images/Sound_on.gif")';
+      Player.play();
+    }
+  }
+</script>
 
-  </script>
-</body>
-</html>
+</body></html>

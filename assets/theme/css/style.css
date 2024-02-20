@@ -16,6 +16,25 @@ button {
   border-color: transparent;
 }
 
+.confirmed_event
+{
+  background-color: rgba(133, 117, 47, 0.233);
+}
+
+.Img_LineBreak
+{
+  /* padding-block: 2rem; */
+  align-content: center;
+}
+
+.Line_Breaker_Box
+{
+  padding-block: 1%;
+  background-image: url("assets/images/Line.png");
+  background-position: center;
+  background-size: contain;
+}
+
 .embla__button,
 .carousel-control {
   background-color: #edefea !important;
@@ -298,8 +317,7 @@ iframe {
 }
 /*! Buttons */
 .mbr-section-btn {
-  margin-left: -0.6rem;
-  margin-right: -0.6rem;
+align-items: center;
   font-size: 0;
 }
 
